@@ -19,7 +19,7 @@ header {
 
 .item {
     /* border: 1px solid #ff0000; */
-    margin-top: 12px;
+    margin-top: 15px;
     opacity: 0.6;
 }
 
@@ -31,7 +31,7 @@ header {
 .container {
     display: grid;
     grid-column-gap: 10px;
-    grid-row-gap: 62px;
+    grid-row-gap: 70px;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(6,1fr);
 }
@@ -160,12 +160,6 @@ header {
 
 /* //// */
 
-.garth {
-    background-image: url(../images/IMG-20190122-WA0010.jpg);
-    grid-column: 3 / 3;
-    grid-row: 7 / 11;
-}
-
 /* nashville */
 
 .item10 {
@@ -194,35 +188,91 @@ header {
 
 /* //// */
 
+/* keenan */
+
+.item12 {
+    grid-column: 3 / 3;
+    grid-row: 10 / 14;
+
+}
+
 .guy {
-    background-image: url(../images/IMG-20190122-WA0015.jpg);
+    width: 325px;
+    height: 408px;
+}
+
+/* //// */
+
+/* marco */
+
+.item13 {
     grid-column: 4 / 4;
-    grid-row: 13 / 21;
+    grid-row: 10 / 14;
 }
 
 .polo {
-    background-image: url(../images/IMG-20190122-WA0016.jpg);
+    width: 325px;
+    height: 408px;
+}
+
+/* //// */
+
+/* garth */
+
+.item14 {
+    grid-column: 2 / 4;
+    grid-row: 18 / 14
+}
+
+.garth {
+    width: 658.75px;
+    height: 397px;
+    
+}
+
+/* //// */
+
+/* west */
+
+.item15 {
     grid-column: 1 / 2;
-    grid-row: 17 / 24;
+    grid-row: 18 / 14;
 }
 
 .west {
-    background-image: url(../images/IMG-20190122-WA0018.jpg);
-    grid-column: 2 / 2;
-    grid-row: 17 / 24;
+    width: 325px;
+    height: 397px;
+}
+
+/* /// */
+
+/* toyer */
+
+.item16 {
+    grid-column: 4 / 4;
+    grid-row: 18 / 14;
 }
 
 .toyer {
-    background-image: url(../images/IMG-20190122-WA0019.jpg);
-    grid-column: 3 / 3;
-    grid-row: 17 / 24;
+    width: 325px;
+    height: 397px;
+}
+
+/* //// */
+
+/* justin */
+
+.item17 {
+    grid-column: 1 / 1;
+    grid-row: 20 / 24;
 }
 
 .cali {
-    background-image: url(../images/IMG-20190122-WA0020.jpg);
-    grid-column: 4 / 4;
-    grid-row: 20 / 24;
+    width: 325px;
+    height: 397px;
 }
+
+/* //// */
 
 .fatima {
     background-image: url(../images/IMG-20190122-WA0026.jpg);
