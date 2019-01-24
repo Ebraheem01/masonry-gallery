@@ -1,0 +1,247 @@
+/* base styles */
+
+body {
+    background-color: black;
+}
+
+header {
+    margin: 0%;
+    background-image: url(../images/stars.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    font-size: 2em;
+    color: #ffffff;
+    text-shadow: 1px 1px #ff0000;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+    /* border: 1px solid #ff0000; */
+    margin-top: 12px;
+    opacity: 0.6;
+}
+
+.item:hover {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 62px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+
+/* michelle */
+
+.item1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 5;
+}
+
+.michelle {
+    width: 323.750px;
+    height: 211px;
+}
+
+/* //// */
+
+/* liam */
+.item2 {
+    grid-column: 2 / 4 ;
+    grid-row: 1 / 5;
+}
+
+.liam {
+    width: 323.750px;
+    height: 211px; 
+}
+
+/* //// */
+
+/* ebraheem */
+
+.item3 {
+    grid-column: 3 / 3 ;
+    grid-row: 1 / 5;
+}
+
+.ebie {
+    width: 323.750px;
+    height: 211px;
+}
+
+/* //// */
+
+/* rasool */
+
+.item4 {
+    grid-column: 4 / 5;
+    grid-row: 1 / 5;
+}
+
+.rasool {
+    width: 323.750px;
+    height: 211px;
+}
+
+/* //// */
+
+/* naasik */
+
+.item5{
+    grid-column: 1 / 2;
+    grid-row: 4 / 8;
+}
+
+.naasik {
+    width: 323.750px;
+    height: 211px;
+}
+
+/* //// */
+
+/* imraan */
+
+.item6 {
+    grid-column: 2 / 4;
+    grid-row: 4 / 11;
+}
+
+.immo {
+    margin-top: 18px;
+    width: 658.75px;
+    height: 397px;
+}
+
+/* raasik */
+
+.item7 {
+    grid-column: 4 / 5;
+    grid-row: 4 / 8;
+}
+
+.raasik {
+    width: 323.750px;
+    height: 211px;
+}
+
+/* //// */
+
+/* tabile */
+
+.item8 {
+    grid-column: 1 / 2;
+    grid-row: 7 / 11;
+}
+
+.tabile {
+    width: 323.750px;
+    height: 211px;
+}
+
+/* //// */
+
+/* taylor */
+
+.item9 {
+    grid-column: 4 / 4;
+    grid-row: 7 / 11;
+}
+
+.taylor {
+    width: 323.750px;
+    height: 211px; 
+}
+
+/* //// */
+
+.garth {
+    background-image: url(../images/IMG-20190122-WA0010.jpg);
+    grid-column: 3 / 3;
+    grid-row: 7 / 11;
+}
+
+/* nashville */
+
+.item10 {
+    grid-column: 1 / 2;
+    grid-row: 10 / 14;
+}
+
+.nashville {
+    width: 325px;
+    height: 410px;
+}
+
+/* //// */
+
+/* ismet */
+
+.item11 {
+    grid-column: 2 / 2;
+    grid-row: 10 / 14;
+}
+
+.izzie {
+    width: 325px;
+    height: 408px;
+}
+
+/* //// */
+
+.guy {
+    background-image: url(../images/IMG-20190122-WA0015.jpg);
+    grid-column: 4 / 4;
+    grid-row: 13 / 21;
+}
+
+.polo {
+    background-image: url(../images/IMG-20190122-WA0016.jpg);
+    grid-column: 1 / 2;
+    grid-row: 17 / 24;
+}
+
+.west {
+    background-image: url(../images/IMG-20190122-WA0018.jpg);
+    grid-column: 2 / 2;
+    grid-row: 17 / 24;
+}
+
+.toyer {
+    background-image: url(../images/IMG-20190122-WA0019.jpg);
+    grid-column: 3 / 3;
+    grid-row: 17 / 24;
+}
+
+.cali {
+    background-image: url(../images/IMG-20190122-WA0020.jpg);
+    grid-column: 4 / 4;
+    grid-row: 20 / 24;
+}
+
+.fatima {
+    background-image: url(../images/IMG-20190122-WA0026.jpg);
+    grid-column: 1 / 1;
+    grid-row: 23 / 31;
+    background-size: cover;
+}
+
+.nathier {
+    background-image: url(../images/IMG-20190123-WA0014.jpg);
+    grid-column: 2 / 4;
+    grid-row: 23 / 31;
+}
+
+.marlon {
+    background-image: url(../images/IMG-20190122-WA0030.jpg);
+    grid-column: 4 / 4;
+    grid-row: 23 / 31;
+}
+
+
+
